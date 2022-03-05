@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#66FFEC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm công việc"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/editTextTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Việc mới cần làm"></EditText>
+
+    <EditText
+        android:id="@+id/editTextGio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Giờ hết hạn cần làm"></EditText>
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="114dp"
+        android:src="@drawable/date"></ImageView>
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="183dp"
+        android:src="@drawable/time"></ImageView>
+
+    <EditText
+        android:id="@+id/editTextNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Ngày hết hạn cần làm"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/editTextGhiChu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Ghi chú"></EditText>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="120dp"
+        android:text="Thêm"></Button>
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="12dp"
+        android:text="Huỷ"></Button>
+
+</RelativeLayout>
